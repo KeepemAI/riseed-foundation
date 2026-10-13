@@ -1,26 +1,28 @@
-# RiseEd Foundation website
+# RiseEd Foundation — redesigned website
 
-A static, responsive starter website. No frameworks, build tools, or paid services required.
+A custom, mobile-friendly six-page static website based on the original RiseEd landing page.
 
-## Before publishing
-1. In `index.html`, replace `YOUR_EMAIL_HERE` in the `mailto:` link with your actual organization contact email.
-2. Review all language for accuracy, particularly nonprofit legal status, planned services, screening, and partnerships.
-3. Verify that the name RiseEd Foundation is available for your use and check applicable business-name and trademark requirements.
-4. Do not collect personal information from children or advertise live tutoring until you have safeguarding, privacy, consent, and volunteer-screening processes in place.
-5. Add a privacy notice before adding forms or analytics.
+## Pages
+- `index.html` — homepage
+- `about.html` — mission and status
+- `programs.html` — proposed pilot
+- `schools.html` — school partnership information
+- `volunteer.html` — volunteer interest
+- `contact.html` — email links
+- `styles.css` — shared styling
+- `script.js` — navigation and footer year
 
-## Preview locally
-Open `index.html` in a web browser.
+## Publishing to your existing GitHub Pages site
+1. Extract the ZIP.
+2. Open your `riseed-foundation` GitHub repository, `main` branch.
+3. Upload **all six HTML files plus styles.css and script.js** to the **repository root** using Add file → Upload files. Do not upload only the ZIP or its enclosing folder.
+4. Commit changes and wait for GitHub Pages to redeploy.
+5. Keep your existing `CNAME` file; do not replace or delete it.
+6. Visit https://riseedfoundation.org and test each navigation link. Hard-refresh if the old stylesheet is cached.
 
-## Publish for free with GitHub Pages
-1. Create a GitHub repository (e.g. `riseed-foundation`).
-2. Upload `index.html`, `styles.css`, and `script.js` to the repository root.
-3. Go to Settings > Pages, choose Deploy from a branch, select `main` and `/ (root)`, and save.
-4. After deployment, your site will be available at `https://YOUR_USERNAME.github.io/riseed-foundation/`.
-5. To use a custom domain, purchase it from a registrar, configure the custom domain in GitHub Pages and follow GitHub's DNS instructions.
-
-## Alternative: Netlify
-Upload the folder to Netlify's manual deploy interface and follow the instructions for a generated URL or custom domain.
-
-## Notes
-The email button opens a visitor's email app; this site does not have a backend, a contact form, or donation processing. The organization is described as an initiative in development, not as an IRS-approved charity.
+## Before outreach
+- Check the mailbox `contact@riseedfoundation.org` receives email.
+- Review all text and update any program details as plans change.
+- Do not claim existing school partnerships, active tutoring, tax-deductible donations, or 501(c)(3) recognition unless verified.
+- Student registration is intentionally not offered yet. Establish screening, consent, privacy, and safeguarding processes first.
+- Google Fonts is loaded over the internet; the site has system-font fallbacks.
